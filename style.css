@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+
+
+body 
+{
+    background-image: url(1232978.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: silver; 
+    text-transform: uppercase;  
+    font-family: 'Monoton', cursive; 
+    font-size: 60px;
+}
+
+#display 
+{
+    text-align: center;
+    color: silver; 
+    text-transform: uppercase;  
+    font-family: 'Monoton', cursive; 
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+.drum-pad{
+    width: 200px;
+    background-color: RGB(255,102,204);
+      margin: auto;
+    border-radius: 3px;
+    text-align: center;
+    padding:60px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    
+  }
+  .pads{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 2;
+    width: 850px;
+    grid-gap: 200px 10px;
+    margin: 80px auto;
+  }
+
+
+  @media screen and (max-width: 900px){
+	
+	.pads{
+        
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 3;
+            width: 80%;
+            grid-gap: 200px 5px;
+            margin: 80px auto;
+    
+	}
+	.drum-pad{
+		width: 100%;
+    }
+
+.body{
+    background-color: black;}
+
+
+    
+
+}
